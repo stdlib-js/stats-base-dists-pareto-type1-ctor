@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Pareto1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-ctor@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-pareto-type1-ctor/tags). For example,
+
+```javascript
 import Pareto1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-ctor@v0.1.0-deno/mod.js';
 ```
 
@@ -281,7 +286,7 @@ y = pareto1.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Pareto1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-ctor@v0.1.0-deno/mod.js';
+import Pareto1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-ctor@deno/mod.js';
 
 var pareto1 = new Pareto1( 2.0, 4.0 );
 
