@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Pareto1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-ctor@esm/index.mjs';
+import Pareto1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-ctor@v0.2.1-esm/index.mjs';
 ```
 
 #### Pareto1( \[alpha, beta] )
@@ -286,7 +286,7 @@ y = pareto1.quantile( 1.9 );
 <body>
 <script type="module">
 
-import Pareto1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-ctor@esm/index.mjs';
+import Pareto1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-ctor@v0.2.1-esm/index.mjs';
 
 var pareto1 = new Pareto1( 2.0, 4.0 );
 
