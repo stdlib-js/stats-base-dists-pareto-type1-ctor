@@ -1,3 +1,3 @@
 /// <reference path="../docs/types/index.d.ts" />
-import Pareto from '../docs/types/index';
-export = Pareto;
+import Pareto1 from '../docs/types/index';
+export = Pareto1;
